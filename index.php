@@ -113,7 +113,7 @@ if(isset($_POST['download'])) {
 									<label class="col-sm-3 col-form-label">Account ID</label>
 									<div class="col-sm-9">
 										<div class="input-group">
-											<input type="text" class="form-control" placeholder="1.2.62" name="account_id" required>
+											<input type="text" class="form-control" placeholder="1.2.62" name="account_id" value="1.2.62" required>
 											<div class="input-group-addon">
 												<span class="fa fa-user-o"></span>
 											</div>
@@ -125,7 +125,7 @@ if(isset($_POST['download'])) {
 									<label class="col-sm-3 col-form-label">Start Date</label>
 									<div class="col-sm-9">
 										<div class="input-group date">
-											<input type="text" class="form-control datepicker" placeholder="2021-04-12 10:00:00" name="start_date" required>
+											<input type="text" class="form-control datepicker" placeholder="2021-04-12 10:00:00" value="2021-04-12 10:00:00" name="start_date" required>
 											<div class="input-group-addon">
 												<span class="fa fa-calendar"></span>
 											</div>
@@ -137,7 +137,7 @@ if(isset($_POST['download'])) {
 									<label class="col-sm-3 col-form-label">End Date</label>
 									<div class="col-sm-9">
 										<div class="input-group date">
-											<input type="text" class="form-control datepicker" placeholder="2021-08-31 19:00:00" name="end_date" required>
+											<input type="text" class="form-control datepicker" placeholder="2021-08-31 19:00:00" value="2021-08-31 19:00:00" name="end_date" required>
 											<div class="input-group-addon">
 												<span class="fa fa-calendar"></span>
 											</div>
